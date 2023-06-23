@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+:root {
+    --main-bg-color: #3742db;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* height: 50px; */
+    background-color: var(--main-bg-color);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul li a:hover {
+    color: red;
+    font-weight: bold;
+
+}
+.btn {
+    border: 2px solid;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    padding: 0 20px;
+}
+
+.search {
+    display: flex;
+
+}
+
+.search input {
+    height: 20px;
+    width: 30vw;
+    border-radius: 10px;
+    margin: 5px 12px 0 60px;
+    padding: 0 15px;
+}
+
+#searchimg {
+    height: 20px;
+}
+
+/* .btn:hover{
+    font-weight: bold;
+} */
+
+.container {
+    min-height: calc(100vh - 50px - 10vh);
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+.slimg1{
+    height: 300px;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card{
+    margin: 12px auto;
+    max-width: 90vw;
+    /* display: flex; */
+}
+.card h2{
+    font-family: 'Inter', sans-serif;
+    margin: 10px 0;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+.carditems{
+    width: 10vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+footer {
+    background: var(--main-bg-color);
+    color: white;
+    height: 10vh;
+    font-family: 'Inter', sans-serif;
+}
